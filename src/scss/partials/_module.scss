@@ -1,0 +1,10 @@
+@import "_mixin";
+// header
+
+.header {
+  .inner {
+    @include inner();
+  }
+}
+
+// footer

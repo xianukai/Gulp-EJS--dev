@@ -1,0 +1,17 @@
+@import "partials/_mixin";
+@import "partials/_module";
+@import "partials/_config";
+
+section {
+  .inner {
+    @include inner();
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    .inner {
+      @include inner(100%);
+    }
+  }
+}

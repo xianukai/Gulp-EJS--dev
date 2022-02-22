@@ -1,0 +1,14 @@
+@mixin inner(
+  $cont-width: 1200px
+) {
+  width: $cont-width;
+  margin: 0 auto;
+}
+
+@mixin btn(
+  $bg: blue
+) {
+  background-color: $bg;
+  padding: 10px 8px;
+  display: block;
+}

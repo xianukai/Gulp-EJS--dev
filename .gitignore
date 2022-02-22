@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# vscode and editors
+.vscode
+
+# System Files
+.DS_Store
+
+Thumbs.db
+
+# IDEs and editors
+.idea
+
+# Logs
+npm-debug.log*
+
+# Style Files
+/dist/**/*.css.map
+
+# /dist/css/*.css
+
+!/dist/js/
+
+index.md
